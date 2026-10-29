@@ -4,10 +4,11 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/demo.js",
+    "start": "node dist/src/main.js",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "^5.6.0"
+    "typescript": "^5.6.0",
+    "@types/node": "^20.11.0"
   }
 }
