@@ -1,0 +1,95 @@
+:root {
+  /* Brand */
+  --color-primary: #5146E5;
+  --color-primary-hover: #7168F0;
+  --color-primary-soft: #ECEBFF;
+
+  /* Backgrounds */
+  --color-background: #F5F7FB;
+  --color-surface: #FFFFFF;
+
+  /* Text */
+  --color-text: #172033;
+  --color-text-secondary: #475467;
+  --color-text-muted: #98A2B3;
+
+  /* Borders */
+  --color-border: #E6EAF1;
+  --color-border-strong: #D0D5DD;
+
+  /* Status */
+  --color-success: #16845B;
+  --color-success-soft: #E7F6EF;
+  --color-warning: #B54708;
+  --color-warning-soft: #FFF4E5;
+  --color-danger: #D92D20;
+  --color-danger-soft: #FEECEB;
+  --color-info: #2670C9;
+  --color-info-soft: #EAF3FF;
+
+  /* Typography */
+  --font-family: 'Inter', Arial, sans-serif;
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 22px;
+  --font-size-xl: 30px;
+  --font-size-2xl: 38px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(23, 32, 51, 0.06);
+  --shadow-modal: 0 12px 40px rgba(23, 32, 51, 0.16);
+
+  /* Controls */
+  --control-height: 40px;
+  --button-height: 44px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}

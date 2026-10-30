@@ -1,8 +1,3 @@
--- ============================================================
--- ER-диаграмма → PostgreSQL DDL
--- Только структура. Без данных. Таблицы создаются пустыми.
--- ============================================================
-
 CREATE TABLE users (
     user_id     UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     email       VARCHAR(255) NOT NULL UNIQUE,
